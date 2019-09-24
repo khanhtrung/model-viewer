@@ -22,6 +22,7 @@ limitations under the License.
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="demo-styles.css">
+    <link rel="stylesheet" href="demo-styles.css">
     
     <!-- The following libraries and polyfills are recommended to maximize browser support -->
 <!-- NOTE: you must adjust the paths as appropriate for your project -->
@@ -65,21 +66,19 @@ limitations under the License.
   <p>Welcome to the 3D Model to the Web wrapper</p>
   
   
-  <ul class="container float">
-    <li class="item float-item">
-    </li>
+
     <model-viewer src="third_party/Chair/model.gltf"
               ar
-              ios-src="https://developer.apple.com/augmented-reality/quick-look/models/redchair/chair_swan.usdz"
+              ios-src="third_party/chair_swan.usdz"
               auto-rotate camera-controls
               background-color="#70BCD1"
               shadow-intensity="1"
               alt="A 3D model of an Chair">
       </model-viewer>  <br>
-      <a >Chair 1</a> <br> <br>
-      <a href="https://developer.apple.com/augmented-reality/quick-look/models/redchair/chair_swan.usdz">iPhone app? Please click here and wait a moment</a> <br> <br>
+      <a >Chair</a> <br> <br>
+      <a href="third_party/chair_swan.usdz">iPhone app? Please click here and wait a moment</a> <br> <br>
       <a href="third_party/Chair/model.glb">Android app? Please click here and wait a moment</a> <br> <br>
-    <li class="item float-item">
+
       <model-viewer src="third_party/Teacup/Teacup.gltf"
               ar
               ios-src="third_party/cup_saucer_set.usdz"
@@ -91,8 +90,7 @@ limitations under the License.
       <a >Teacup</a> <br> <br>
       <a href="third_party/cup_saucer_set.usdz">iPhone app? Please click here and wait a moment</a>  <br> <br>
       <a href="third_party/Teacup/Teacup.gltf">Android app? Please click here and wait a moment</a>  <br> <br>
-    </li>
-  </ul>
+
   
 </body>
 </html>
