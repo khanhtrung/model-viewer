@@ -67,3 +67,19 @@ footer {
   font-style: italic;
   line-height: 1.5em;
 }
+
+/*float layout*/
+.float {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.float:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.float-item {
+  float: left;
+}
